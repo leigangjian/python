@@ -9,7 +9,7 @@ def url_oprn():
     return html
 
 def get_page(url):
-    url_open(url)..decode('utf-8')
+    url_open(url).decode('utf-8')
 
     a = html.find('rifhttext') - 6
     b = html.find('<',a)
