@@ -5,3 +5,4 @@ cat_img = response.read()
 
 with open('cat_500_600.jpg','wb') as f:
     f.write(cat_img)
+x = input("请输入任意键退出")

@@ -51,3 +51,6 @@ def download_img(folder='',pages=10):
 
 if __name__ == '__main__':
     download_img()
+
+print("暂未完成")
+x = input("请输入任意键退出")

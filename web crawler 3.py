@@ -22,3 +22,4 @@ html = response.read().decode('utf-8')
 
 target = json.loads(html)
 print("翻译结果为:%s" % (target['translateResult'][0][0]['tgt']))
+x = input("请输入任意键退出")

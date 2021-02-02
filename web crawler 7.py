@@ -30,3 +30,4 @@ df = pd.DataFrame(mylist)
 print(df)
 # 存入csv文档
 df.to_csv('output.csv', encoding='utf-8', index=False)
+x = input("请输入任意键退出")

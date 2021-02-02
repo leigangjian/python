@@ -64,6 +64,7 @@ def download_mm():
                 except:
                     pass
                 os.chdir(os.pardir)
+    x = input("请输入任意键退出")
         
 
 if __name__=="__main__":

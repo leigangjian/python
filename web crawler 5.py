@@ -43,3 +43,5 @@ def main():           #做一个分装函数
             name = i["name"]   #字典取值
             get_music(rid,name)
 main()
+
+x = input("请输入任意键退出")

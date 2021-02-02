@@ -56,3 +56,4 @@ def main():
 if __name__ == '__main__':
     main()
     print('程序执行完成！')
+    x = input("请输入任意键退出")
