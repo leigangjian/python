@@ -6,7 +6,7 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 # 解决中文显示问题
-plt.rcParams['font.sans-serif'] = ['SimHei']  #SimHei黑体
+plt.rcParams['font.sans-serif'] = ['SimHei']  #SimHei黑体 
 plt.rcParams['axes.unicode_minus'] = False
  
 def roll_dice():
