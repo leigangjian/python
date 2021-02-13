@@ -13,7 +13,7 @@ class Play_Music:
     def __init__(self):
         super(Play_Music, self).__init__()
 
-        # qflie = QFile('D:\Code\Python\pyqt\pyside2\\play_music.ui')
+        # qflie = QFile('D:\python exercise\play_music.ui')
         
         qflie = QFile('./play_music.ui')
         qflie.open(QFile.ReadOnly)
